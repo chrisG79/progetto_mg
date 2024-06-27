@@ -1,8 +1,8 @@
 import './css/style.css'
 
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Montserrat, Playfair_Display } from 'next/font/google'
 
-const inter = Inter({
+const inter = Montserrat({
   subsets: ['latin'],
   variable: '--font-inter',
   display: 'swap'
